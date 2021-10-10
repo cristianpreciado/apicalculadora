@@ -1,0 +1,7 @@
+CREATE DATABASE [bancogeeks];
+CREATE TABLE [bancogeeks].[dbo].[log_calculos] (
+    id int IDENTITY(1,1) PRIMARY KEY,
+    valorUno int,
+    valorDos int,
+    resultado int
+);
